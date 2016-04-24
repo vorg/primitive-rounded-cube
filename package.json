@@ -1,6 +1,6 @@
 {
   "name": "primitive-rounded-cube",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A rounded cube geometry for 3D rendering, including normals, UVs and cell indices (faces).",
   "main": "index.js",
   "license": "MIT",
