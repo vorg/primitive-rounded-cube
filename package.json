@@ -1,0 +1,39 @@
+{
+  "name": "primitive-rounded-cube",
+  "version": "1.0.0",
+  "description": "A rounded cube geometry for 3D rendering, including normals, UVs and cell indices (faces).",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Marcin Ignac",
+    "email": "marcin.ignac@gmail.com",
+    "url": "https://github.com/vorg"
+  },
+  "dependencies": {
+    "normals": "^1.0.1",
+    "pex-math": "^1.0.0",
+    "primitive-cube": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "3d",
+    "simplicial",
+    "complex",
+    "primitive",
+    "geometry",
+    "geom",
+    "cube",
+    "webgl"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vorg/primitive-rounded-cube.git"
+  },
+  "homepage": "https://github.com/vorg/primitive-rounded-cube",
+  "bugs": {
+    "url": "https://github.com/vorg/primitive-rounded-cube/issues"
+  }
+}
