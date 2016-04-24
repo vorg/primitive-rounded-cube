@@ -1,5 +1,4 @@
 var createCube = require('primitive-cube');
-var computeNormals = require('normals').vertexNormals;
 var Vec3 = require('pex-math/Vec3');
 
 function createRoundedCube(sx, sy, sz, nx, ny, nz, radius) {
@@ -58,8 +57,6 @@ function createRoundedCube(sx, sy, sz, nx, ny, nz, radius) {
         Vec3.scale(tmp, radius);
         Vec3.add(pos, tmp);
     }
-
-    cube.normals = computeNormals(cube.cells, cube.positions);
 
     return cube;
 }

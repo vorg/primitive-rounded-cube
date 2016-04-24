@@ -10,7 +10,6 @@
     "url": "https://github.com/vorg"
   },
   "dependencies": {
-    "normals": "^1.0.1",
     "pex-math": "^1.0.0",
     "primitive-cube": "^2.0.0"
   },
