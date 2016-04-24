@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "0.0.0",
+  "description": "A pritimive-cube demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "beefy main.js --open -- -i plask -g glslify-promise/transform"
+  },
+  "author": {
+    "name": "Marcin Ignac",
+    "email": "marcin.ignac@gmail.com",
+    "url": "https://github.com/vorg"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "beefy": "^2.1.5"
+  },
+  "dependencies": {
+    "geom-edges": "^1.2.0",
+    "glslify-promise": "^1.0.1",
+    "normals": "^1.0.1",
+    "pex-context": "git://github.com/variablestudio/pex-context",
+    "pex-io": "git://github.com/variablestudio/pex-io",
+    "pex-math": "git://github.com/variablestudio/pex-math",
+    "pex-sys": "git://github.com/variablestudio/pex-sys"
+  }
+}
