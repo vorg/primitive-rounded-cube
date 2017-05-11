@@ -24,7 +24,7 @@ Parameters:
 ## Example
 
 ```javascript
-var createRoundedCube = require('primtivie-rounded-cube');
+var createRoundedCube = require('primitive-rounded-cube');
 var cube = createRoundedCube(1, 1, 1, 20, 20, 20, 0.1);
 ```
 
